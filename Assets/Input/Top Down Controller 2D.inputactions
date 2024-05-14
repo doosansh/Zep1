@@ -1,0 +1,51 @@
+{
+    "name": "Top Down Controller 2D",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "2b0d697b-0a40-4848-9ad6-884d037a2af8",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "e5681348-5d63-4c91-8a32-94493cb452da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7949dfc0-d377-4e73-a0e6-8a7eb77157d4",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyboardMouse",
+            "bindingGroup": "KeyboardMouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
